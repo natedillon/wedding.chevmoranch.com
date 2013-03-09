@@ -1,0 +1,470 @@
+body {
+	margin: 0;
+	padding: 30px;
+	color: black;
+	background: #40275A url(/images-working/main/bg.png) top left repeat-x;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: small;
+	line-height: 1.5em;
+}
+
+/* @group Common Styles */
+
+a, a:visited {
+	color: #40275A;
+	text-decoration: none;
+	border-bottom: 1px solid #40275A;
+}
+
+a:hover, a:active {
+	color: #40275A;
+}
+
+h1 {
+	margin: 0 0 15px 0;
+	color: #649A33;
+}
+
+h2 {
+	margin: 0 0 15px 0;
+	color: #649A33;
+}
+
+h3 {
+	margin: 0 0 15px 0;
+}
+
+p, ul, dd {
+	margin: 0 0 15px 0;
+}
+
+dl {
+	margin: 0;
+	padding: 0;
+}
+
+dl dt {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+dl dd {
+	padding: 0;
+}
+
+abbr { speak: spell-out; }
+acronym { speak: normal; }
+abbr, acronym {
+	padding-bottom: 1px;
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+/* @end */
+
+
+
+/* @group Layout */
+
+#page {
+	width: 752px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#page-gutter {
+	margin: 0;
+	padding: 1px;
+	background-color: white;
+}
+
+/* @end */
+
+
+
+/* @group Header */
+
+#header {
+	margin: 0;
+	padding: 0;
+	clear: both;
+	background: #76B53C url(/images-working/main/header-bg.png) top left no-repeat;
+	line-height: normal;
+}
+
+#logo {
+	margin: 0;
+	padding: 105px 30px 15px 30px;
+	color: white;
+	border-bottom: 1px solid white;
+}
+
+#logo a, #logo a:visited {
+	color: white;
+	border-style: none;
+	text-decoration: none;
+}
+
+#logo a img {
+	border-style: none;
+}
+
+#nav {
+	width: 100%;
+	clear: both;
+	float: left;
+	background-color: #3B1D00;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0 15px;
+	float: left;
+	list-style-type: none;
+}
+
+#nav ul li {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#nav ul li a, #nav ul li a,visited {
+	display: block;
+	margin: 0;
+	padding: 15px;
+	color: white;
+	border-style: none;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+#home #nav ul li#nav-home a,
+#story #nav ul li#nav-story a,
+#the-wedding-day #nav ul li#nav-the-wedding-day a,
+#directions #nav ul li#nav-directions a,
+#lodging #nav ul li#nav-lodging a,
+#gifts #nav ul li#nav-gifts a,
+#rsvp #nav ul li#nav-rsvp a,
+#contact #nav ul li#nav-contact a {
+	background-image: url(/images/main/nav-bg.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+
+#nav ul li a:hover, #nav ul li a:active {
+	background-color: #291400;
+	text-decoration: underline;
+}
+
+/* @end */
+
+
+
+/* @group Content */
+
+#content {
+	margin: 0;
+	padding: 30px;
+	clear: both;
+	float: left;
+}
+
+#home #content {
+	padding-top: 290px;
+	background-image: url(/images/home/header-photos.jpg);
+	background-repeat: no-repeat;
+	background-position: center 30px;
+}
+
+#content-gutter {
+	float: left;
+	background: url(../images-working/main/main-content-bg.png) top center repeat-y;
+}
+
+#main-content {
+	width: 450px;
+	margin: 0 30px 0 0;
+	padding: 0;
+	float: left;
+}
+
+#sidebar {
+	width: 180px;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+#sidebar-date {
+	margin: 0 0 15px 0;
+	padding: 5px 0;
+	color: #3B1D00;
+	font-size: 140%;
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+#sidebar-nav {
+	margin: 0 0 15px 0;
+	padding: 0;
+	list-style-type: none;
+	border-top: 1px solid #ddd;
+}
+
+#sidebar-nav li {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #ddd;
+}
+
+#sidebar-nav li a {
+	display: block;
+	margin: 0;
+	padding: 5px;
+	overflow: hidden;
+}
+
+#sidebar-nav li a span {
+}
+
+#sidebar-nav li a img {
+	border-style: none;
+}
+
+/* @end */
+
+/* @group Footer */
+
+#footer {
+	margin: 0;
+	padding: 15px 30px;
+	clear: both;
+	color: #B1A599;
+	background-color: #3B1D00;
+	font-size: 90%;
+}
+
+#footer a, #footer a:visited {
+	color: #B1A599;
+	border-color: #B1A599;
+}
+
+#footer a:hover, #footer a:active {
+	color: white;
+	border-color: white;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0;
+}
+
+/* @end */
+
+
+
+/* @group Misc. Styles */
+
+hr, .hidden, .credits {
+	display: none;
+}
+
+.image-right { float: right; margin: 0 0 15px 15px; }
+.image-left { float: left; margin: 0 15px 15px 0; }
+
+/* @end */
+
+
+
+/* @group Lodging */
+/*
+dl.lodging-contact-info {
+	margin-bottom: 15px;
+}
+
+dl.lodging-contact-info dt {
+	float: left;
+	margin-right: 0.2em;
+}
+
+dl.lodging-contact-info dd {
+	clear: right;
+	margin-bottom: 0;
+}
+*/
+
+.lodging-photos {
+	clear: both;
+	float: left;
+	margin-right: 0;
+	margin-left: 0;
+	padding-right: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.lodging-photos li {
+	margin: 0 10px 0 0;
+	padding: 0;
+	float: left;
+}
+
+.lodging-photos li a, .lodging-photos li a img {
+	border-style: none;
+}
+
+#lightbox a {
+	border-style: none;
+}
+
+/* @end */
+
+
+
+/* @group The Wedding Day */
+
+#schedule {
+	padding: 0;
+	list-style-type: none;
+	background-image: url(/images-working/the-wedding-day/schedule-li-bg.png);
+	background-position: 60px 0;
+	background-repeat: repeat-y;
+	font-size: 120%;
+}
+
+#schedule li {
+	margin: 0;
+	padding: 0;
+}
+
+#schedule li#schedule-wedding { }
+
+#schedule li span {
+	display: block;
+	margin: 0;
+	padding: 25px 0 25px 90px;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+#schedule li#schedule-wedding span { background-image: url(/images/the-wedding-day/schedule-wedding.png); }
+#schedule li#schedule-reception span { background-image: url(/images/the-wedding-day/schedule-reception.png); }
+#schedule li#schedule-dinner span { background-image: url(/images/the-wedding-day/schedule-dinner.png); }
+#schedule li#schedule-dance span { background-image: url(/images/the-wedding-day/schedule-dance.png); }
+#schedule li#schedule-send-off span { background-image: url(/images/the-wedding-day/schedule-send-off.png); }
+
+/* @end */
+
+
+
+/* @group Gift Registry */
+
+#gifts-list {
+	margin: 0 0 30px 0;
+	padding: 0;
+	list-style-type: none;
+	clear: both;
+}
+
+#gifts-list li {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#gifts-list li a {
+	display: block;
+	width: 225px;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+
+#gifts-list li a img {
+	border-style: none;
+}
+
+/* @end */
+
+
+
+/* @group RSVP and Contact Us */
+
+fieldset {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+
+.fieldwrap {
+	margin: 0 0 15px 0;
+}
+
+.form-spacer {
+	display: none;
+}
+
+label {
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.form-text {
+	width: 200px;
+	padding: 3px;
+	border: 1px solid #3B1D00;
+}
+
+.form-textarea {
+	width: 400px;
+	padding: 3px;
+	border: 1px solid #3B1D00;
+}
+
+.form-checkbox {
+	margin-bottom: 15px;
+}
+
+.form-checkbox label {
+	font-weight: normal;
+}
+
+.ddfmwrap {}
+.ddfm {}
+
+.fieldwrap {
+}
+
+#rsvp-name {}
+#rsvp-email {
+}
+#rsvp-attending {}
+#rsvp-not-attending {}
+#rsvp-guests {}
+#rsvp-songs {}
+#rsvp-message {}
+
+.submit input {
+	padding: 3px;
+	color: white;
+	background-color: #3B1D00;
+	border-style: none;
+}
+
+.ddfmerrors {
+	margin: 0 0 15px 0;
+	padding: 10px;
+	background-color: #F7D9D9;
+	border: 1px solid #cc0000;
+}
+
+.ddfmerrors dd, .ddfmerrors ul {
+	margin-bottom: 0;
+}
+
+/* @end */
+
